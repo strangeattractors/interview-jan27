@@ -36,6 +36,10 @@ pip install -r requirements.txt
 python run.py
 ```
 
+## API docs
+
+http://localhost:8000/docs
+
 ## Run tests
 
 We use the `TestConfig` to run tests
