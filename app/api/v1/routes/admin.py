@@ -40,7 +40,6 @@ async def get_users(async_session: sessDep):
 
 @router.get("/user/{id}", response_model=UserOut, status_code=200)
 async def get_user(async_session: sessDep, id: UUID):
-    print("HELLLO -----------ID", id)
     return await User.get(async_session, id)
 
 
